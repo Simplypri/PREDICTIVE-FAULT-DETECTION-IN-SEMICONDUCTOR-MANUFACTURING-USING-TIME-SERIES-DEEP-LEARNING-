@@ -12,7 +12,7 @@ The project is implemented using the SECOM manufacturing dataset and follows a t
 
 The study demonstrates how temporal learning and attention-based architectures significantly improve predictive maintenance performance in highly imbalanced industrial environments.
 
-1. Problem Statement
+# Problem Statement
 
 Semiconductor manufacturing systems generate large volumes of high-dimensional sensor data from complex fabrication processes. Small deviations in sensor readings can lead to equipment faults, yield loss, and production downtime.
 
@@ -28,7 +28,7 @@ This project aims to build an AI-driven predictive maintenance system capable of
 * Learning temporal dependencies
 * Providing early warnings before failures occur
 
-2. Dataset
+# Dataset
 
 ## SECOM Manufacturing Dataset
 
@@ -49,7 +49,7 @@ The project uses the SECOM dataset, a widely used benchmark dataset for semicond
 * Rare failure events
 * Temporal dependency modeling
 
-3. Methodology
+# Methodology
 
 ## Phase 1: Logistic Regression (Baseline)
 
@@ -130,7 +130,7 @@ Predict failures within a future horizon of K time steps.
 
 Achieves the best overall performance across all evaluation metrics.
 
-4. Evaluation Metrics
+# Evaluation Metrics
 
 The models were evaluated using metrics suitable for imbalanced classification problems.
 
@@ -152,7 +152,7 @@ More informative for highly imbalanced datasets.
 
 Validation-based threshold tuning was used instead of a fixed 0.5 threshold.
 
-5. Results
+# Results
 
 | Phase | Model               | F1-Score | ROC-AUC | PR-AUC |
 | ----- | ------------------- | -------- | ------- | ------ |
@@ -167,7 +167,7 @@ Validation-based threshold tuning was used instead of a fixed 0.5 threshold.
 * Transformer achieves the strongest and most stable performance.
 * Early warning formulation significantly improves predictive capability.
 
-6. References
+# References
 
 1. Hochreiter, S., & Schmidhuber, J. (1997). Long Short-Term Memory.
 2. Vaswani, A., et al. (2017). Attention Is All You Need.
